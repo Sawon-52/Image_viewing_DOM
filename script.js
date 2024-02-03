@@ -1,5 +1,7 @@
-console.log('hello');
+const gallary = document.querySelector('.gallary');
+var view = document.querySelector('.view');
 
-// var eName = ;
-console.log(document.getElementById('1'));
-console.log(document.getElementsByName('eName'));
+gallary.addEventListener('click' , function(event){
+    const ourImage = event.target;
+    console.log(ourImage);
+})
