@@ -33,11 +33,11 @@
     object-position: center;
 }
 
-.screen .window{
+.screen .view{
     grid-column: 7 / -1;
     min-height: 100vh;
 }
-.screen .window img{
+.screen .view img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -57,7 +57,7 @@
         grid-column: 1 / -1;
         justify-content: center;
     }
-    .screen .window{
+    .screen .view{
         order: 1;
         grid-column: 1 / -1;
     }
